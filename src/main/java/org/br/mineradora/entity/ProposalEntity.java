@@ -1,6 +1,7 @@
 package org.br.mineradora.entity;
 
 import java.math.BigDecimal;
+import java.util.Date;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -31,4 +32,6 @@ public class ProposalEntity {
 	
 	@Column(name = "proposal_validity_days")
 	private Integer proposalValidDays;
+	
+	private Date created;
 }
