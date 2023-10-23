@@ -28,6 +28,16 @@
     </dependencies>
   </dependencyManagement>
   <dependencies>
+  <!-- https://mvnrepository.com/artifact/io.quarkus/quarkus-oidc -->
+	<dependency>
+	    <groupId>io.quarkus</groupId>
+	    <artifactId>quarkus-oidc</artifactId>
+	</dependency>
+    <!-- https://mvnrepository.com/artifact/io.quarkus/quarkus-oidc-token-propagation-reactive -->
+	<dependency>
+	    <groupId>io.quarkus</groupId>
+	    <artifactId>quarkus-oidc-token-propagation-reactive</artifactId>
+	</dependency>
     <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 	<dependency>
 	    <groupId>org.projectlombok</groupId>

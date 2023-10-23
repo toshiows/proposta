@@ -49,7 +49,6 @@ public class ProposalServiceImpl implements ProposalService{
 		proposalRepository.deleteById(id);
 	}
 	
-	@Transactional
 	private ProposalDTO buildAndSaveNewProposal(ProposalDetailsDTO proposalDetailsDTO) {
 		try {
 			
